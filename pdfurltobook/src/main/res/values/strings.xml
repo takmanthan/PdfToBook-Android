@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PdfUrlToBook</string>
+
+    <string name="empty_message">PDF url is empty.</string>
+    <string name="validation_message">PDF url is not valid please use (.pdf) extension file.</string>
+    <string name="no_internet_message">"Oops!! There is no internet connection. Please enable internet connection and try again."</string>
+</resources>
