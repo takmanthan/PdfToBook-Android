@@ -31,8 +31,10 @@ PDFUtils.downloadDirectory = "Your_directory_name";
 //put your .pdf url
 String url = "https://www.tutorialspoint.com/cprogramming/cprogramming_tutorial.pdf"; 
 
-//use this same line
-startActivity(new Intent(this, PdfUrlToBookPagerActivity.class).putExtra(PDFUtils.PDFUrl,url));
+//use this same line for open PDF
+//this = context
+//url = pdf url
+PDFUtils.openPdfBook(this,url);
 ```
 
   
