@@ -18,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
     public void ShowPDFClick(View view) {
         PDFUtils.downloadDirectory = "My Downloads";
         String url = "https://www.tutorialspoint.com/cprogramming/cprogramming_tutorial.pdf";
-        startActivity(new Intent(this, PdfUrlToBookPagerActivity.class).putExtra(PDFUtils.PDFUrl,url));
+        PDFUtils.openPdfBook(this,url);
     }
 }
